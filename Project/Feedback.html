@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Feedback_CSS.css">
+	<script type="text/javascript">
+		function validate()	{
+			
+			if( document.form1.subject.value == "" ) {
+				alert( "Please provide CaseID!" );
+				document.form1.subject.focus() ;
+				return false;
+			}
+			
+			if( document.form1.like.value == "" ) {
+				alert( "Please provide Subject!" );
+				document.form1.like.focus() ;
+				return false;
+			}
+			
+			if( document.form1.dislike.value == "" ) {
+				alert( "Please provide your comments!" );
+				document.form1.dislike.focus() ;
+				return false;
+			}
+			
+			return(true);	
+		}
+		</script>
+		
+	<title>Feedback</title>
+</head>
+<body>
+	<div class="container">
+		<div id="lefth">
+			<h2><i><a href="HomePage.html">Entertainment Forum</a></i></h2>
+		</div>
+		<div id="righth">
+			<nav>
+				<ul>
+					<li style="background-color:#BB86FC"><a href="Feedback.html">&nbsp;&nbsp;Feedback&nbsp;&nbsp;</a></li>
+					<li><a href="ShortStories.html">&nbsp;&nbsp;Short Movies&nbsp;&nbsp;</a></li>
+					<li><a href="Documentries.html">&nbsp;&nbsp;Documentries&nbsp;&nbsp;</a></li>
+					<li><a href="Animes.html">&nbsp;&nbsp;Animes&nbsp;&nbsp;</a></li>
+					<li><a href="WebSeries.html">&nbsp;&nbsp;Web Series&nbsp;&nbsp;</a></li>
+					<li><a href="TVSeries.html">&nbsp;&nbsp;TV Series&nbsp;&nbsp;</a></li>
+					<li><a href="Movies.html">&nbsp;&nbsp;Movies&nbsp;&nbsp;</a></li>
+					<li><a href="HomePage.html">&nbsp;&nbsp;Home&nbsp;&nbsp;</a></li>
+				<ul>
+			<nav>
+		</div>
+	<div>
+	
+	<form name="form1" method="post" action="thankyou.html" > 
+	<div class="content">
+		<div id="word"><Center>Feedback</br></Center></div>
+			<table>
+                    <tr>
+                        <td>
+                            Name:
+                        </td>
+					</tr>
+                    <tr>
+                        <td>
+                            <input type="text" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            </br>Subject:<font color="#FF0000">*</font>
+                        </td>
+					</tr>
+                    <tr>
+                        <td>
+                            <input type="text" name="subject" id="subject" required/>
+                        </td>
+                    </tr>
+					<tr>
+                        <td>
+                            </br>How often do you visit our website?
+                        </td>
+					</tr>
+                    <tr>
+                        <td>
+                            <input type="radio" id="daily">
+							<label for="daily">Daily</label>
+							<input type="radio" id="onceaweek">
+							<label for="onceaweek">Once a Week</label>
+							<input type="radio" id="onceamonth">
+							<label for="onceamonth">Once a Month</label>
+							<input type="radio" id="onceayear">
+							<label for="onceayear">Once a Year</label>
+							<input type="radio" id="never">
+							<label for="never">Never</label>
+                        </td>
+                    </tr>
+					
+					<tr>
+                        <td>
+                            </br>How satisfied are you with our website?
+                        </td>
+					</tr>
+                    <tr>
+                        <td>
+                            <input type="radio" id="notsatisfied">
+							<label for="notsatisfied">Not Satisfied</label>
+							<input type="radio" id="satisfied">
+							<label for="satisfied">Satisfied</label>
+							<input type="radio" id="happy">
+							<label for="happy">Happy</label>
+							<input type="radio" id="veryhappy">
+							<label for="veryhappy">Very Happy</label>
+							<input type="radio" id="excellent">
+							<label for="excellent">Excellent</label>
+                        </td>
+                    </tr>
+					
+                    <tr>
+                        <td>
+                            </br>What perticular aspect(s) of our website do you like?<font color="#FF0000">*</font>
+                        </td>
+					</tr>
+                    <tr>
+                        <td>
+                            <textarea name="like" required></textarea></br>
+                        </td>
+                    </tr>
+					
+					<tr>
+                        <td>
+                            </br>What perticular aspect(s) of our website do you dislike?<font color="#FF0000">*</font>
+                        </td>
+					</tr>
+                    <tr>
+                        <td>
+                            <textarea name="dislike" required></textarea></br>
+                        </td>
+                    </tr>
+					
+                    <tr>
+                        <td>
+                            <button type="submit">SUBMIT</button></br>
+                        </td>
+                    </tr>
+            </table>
+		<div id="word1"></br></div>
+		
+	</div>
+	</form>
+	<div id="footer">
+			<p>Thank you for visiting the website</p>
+	</div>
+</body>
+</html>
+	

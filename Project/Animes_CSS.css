@@ -1,0 +1,71 @@
+html,body{
+    background-color: #1F1F1F;
+    margin:0;padding:0;height:100%;
+}
+
+.container{
+	height : 7%;
+	padding : 10px;
+	background-color : black;
+	color : white; <!--text color -->
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	background-color : white;
+	color : black;
+}
+
+#lefth{
+	width : 40%;
+	float : left;
+}
+
+#righth{
+	width : 60%;
+	float : right;
+}
+
+
+nav ul li{
+	float : right;
+	padding-right : 20px;
+	list-style-type:none;
+	display:inline-block;<!--This will display the menu horizontally -->
+}
+
+.content{
+	height : 84%;
+	padding-top : 100px;
+	padding-left : 100px;
+}
+
+#word{
+	font-size: 4vw;
+	font-style:italic;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+table, th, td {
+  border: 1px solid black;
+  padding : 15px;
+  font-style:italic;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}	
+
+th{
+	width:150px;
+}
+
+#footer{
+	height : 7%;
+	width : 99%;
+    text-align: center;
+	padding: 8px;
+	background-color : black;
+	color : white;
+}

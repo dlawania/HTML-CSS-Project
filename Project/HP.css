@@ -1,0 +1,67 @@
+html,body{
+    background-color: Black;
+    margin:0;padding:0;height:100%;
+	background-image : url('Background_HP.jpg');
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+.container{
+	height : 7%;
+	padding : 10px;
+	background-color : black;
+	color : white; <!--text color -->
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	background-color : white;
+	color : black;
+}
+
+#lefth{
+	width : 40%;
+	float : left;
+}
+
+#righth{
+	width : 60%;
+	float : right;
+}
+
+
+nav ul li{
+	float : right;
+	padding-right : 20px;
+	list-style-type:none;
+	display:inline-block;<!--This will display the menu horizontally -->
+}
+
+.content{
+	height : 93%;
+	padding-top : 250px;
+	padding-left : 200px;
+}
+
+.word{
+	font-size: 5vw;
+	font-style:italic;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.word2{
+	font-size: 1vw;
+	font-style:italic;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
+
+
+
+
+
